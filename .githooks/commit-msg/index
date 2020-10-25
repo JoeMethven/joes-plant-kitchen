@@ -1,0 +1,16 @@
+#!/bin/sh
+# This hook will make sure that the commit message contains a JIRA issue.
+#
+# To enable this hook, rename this file to ".git/hooks/commit-msg".
+# Make sure to add execution permissions to the file.
+
+export MESSAGE=$(<$1)
+export JIRA_ISSUE_TAG='ES-([0-9]*)'
+
+if [[ $MESSAGE =~ $JIRA_ISSUE_TAG ]]; then
+  echo "Great, your commit message contains a JIRA issue!"
+  exit 0;
+fi
+
+echo "You forgot to add a JIRA issue number!";
+exit 1;

@@ -1,0 +1,6 @@
+website_id: 5ed79223357192370f0b0560
+x_api_key: U33T5UTB2PTVV3PREFZC
+paths:
+    media: ./src/media
+    data: ./src/data
+editor:

@@ -1,0 +1,92 @@
+//$colour-primary: #ef2e1c;
+//$colour-primary-shade: #342d61;
+//$colour-primary-highlight: #bab0d7;
+//$colour-primary-saturated: #a076ff;
+//$colour-primary-faded: #eee9f4;
+//
+//$colour-secondary: #2b2b2b;
+//$colour-secondary-shade: darken($colour-secondary, 5%);
+//$colour-secondary-highlight: lighten($colour-secondary, 10%);
+//
+//$colour-plan-essential: #7fd373;
+//$colour-plan-professional: #ce4eb8;
+//$colour-plan-commercial: #287ee5;
+//
+//$colour-black: #252525;
+//$colour-white: #ffffff;
+//$colour-white-gray: #fcfcfc;
+//$colour-lighter-gray: #e8e8e8;
+//$colour-light-gray: #c7c7c7;
+//$colour-gray: #9b9b9b;
+//$colour-dark-gray: #797979;
+//
+$background-body: #ffffff;
+//
+//$colour-base: #2e2e2e;
+//$colour-base-shade: #2b2b2b;
+//$colour-base-depth: #292929;
+//$colour-base-dark: #000000;
+//$colour-base-disabled: #3d3d3d;
+//
+//$colour-text: $colour-white;
+//$colour-text-shade: $colour-white-gray;
+//$colour-text-depth: $colour-lighter-gray;
+//$colour-text-faded: $colour-light-gray;
+//$colour-text-disabled: $colour-gray;
+//$colour-text-inversed: $colour-black;
+//$colour-text-inversed-shade: $colour-dark-gray;
+//$colour-text-inversed-depth: $colour-gray;
+//$colour-text-inversed-faded: $colour-light-gray;
+//$colour-text-inversed-disabled: $colour-dark-gray;
+//
+//$colour-info: #287ee5;
+//$colour-info-shade: darken($colour-info, 2.5%);
+//
+//$colour-warning: #f0933a;
+//$colour-warning-shade: darken($colour-warning, 7%);
+//
+//$colour-success: #7fd373;
+//$colour-success-highlight: lighten(saturate($colour-success, 10%), 5%);
+//$colour-success-shade: darken($colour-success, 2.5%);
+//$colour-success-dark: #193711;
+//
+//$colour-error: #d46b5f;
+//$colour-error-highlight: lighten(saturate($colour-error, 10%), 5%);
+//$colour-error-shade: darken($colour-error, 5%);
+//$colour-error-dark: #451212;
+//
+//$focus-box-shadow: 0 0 0 0px rgba(61, 94, 103, 0.5), 0 0 0 2px rgba(61, 94, 103, 0.4),
+//    0 0 0 4px rgba(61, 94, 103, 0.247);
+//
+//$font-size-base: 1rem;
+//$font-family-heading: 'futura-pt', 'Arial', sans-serif;
+//$font-family-body: 'proxima-nova', 'Arial', sans-serif;
+//
+//$bbr: 3px;
+//
+$bsu: 1rem * 1.875;
+$dsu: $bsu * 2;
+$hsu: $bsu / 2;
+$qsu: $bsu / 4;
+$tsu: ($bsu / 4) * 3;
+//
+//$column-spacing: 30px;
+//
+//$logo-height: 43px;
+//$logo-width: 83px;
+//
+//$transition: cubic-bezier(0.4, 0, 0.2, 1);
+//$transition-accelerate: cubic-bezier(0.4, 0, 1, 1);
+//$transition-decelerate: cubic-bezier(0, 0, 0.2, 1);
+//
+//$breakpoint-sm: 576px;
+//$breakpoint-md: 768px;
+//$breakpoint-lg: 992px;
+//$breakpoint-xl: 1200px;
+//$breakpoint-xxl: 1440px;
+//
+//$container-width: 1200px;
+//
+//$shadow-bottom: 0 1px 3px rgba(0, 0, 0, 0.2);
+//$shadow-middle: 0 3px 6px rgba(0, 0, 0, 0.2);
+//$shadow-top: 0 3px 8px rgba(0, 0, 0, 0.5);
